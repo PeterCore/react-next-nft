@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Image from "next/image";
 import { FaUserAlt, FaRegImage, FaUserEdit } from "react-icons/fa";
 import { MdHelpCenter } from "react-icons/md";
@@ -8,6 +8,7 @@ import Link from "next/link";
 //INTERNAL IMPORT
 import Style from "./Profile.module.css";
 import images from "../../../img";
+
 const Profile = ({ currentAccount }) => {
   return (
     <div className={Style.profile}>
@@ -67,4 +68,4 @@ const Profile = ({ currentAccount }) => {
   );
 };
 
-export default Profile
+export default Profile;

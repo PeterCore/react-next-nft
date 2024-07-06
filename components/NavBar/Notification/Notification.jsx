@@ -1,7 +1,10 @@
-import React from 'react'
-import Image from 'next/image'
-import Style from './Notification.module.css'
-import images from '../../../img'
+import React from "react";
+import Image from "next/image";
+
+//INTERNAL IMPORT
+import Style from "./Notification.module.css";
+import images from "../../../img";
+
 const Notification = () => {
   return (
     <div className={Style.notification}>
@@ -24,7 +27,7 @@ const Notification = () => {
         <span className={Style.notification_box_new}></span>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Notification
+export default Notification;

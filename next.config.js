@@ -1,7 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
-  swcMinify: true,
-}
-
-module.exports = nextConfig
+  images: {
+    domains: ["daulat-nft-marketplace.infura-ipfs.io"],
+    formats: ["image/webp"],
+  },
+};
